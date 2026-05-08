@@ -1244,7 +1244,7 @@ top.className="row";
   const form=document.createElement("div"); form.id="quiz";
   round.forEach((item,idx)=>{
     const q=document.createElement("div"); q.className="q";
-      quizScroll.appendChild(form);f
+      quizScroll.appendChild(form);
     q.innerHTML=`<strong>${idx+1}. <span class="mono">[${item.domain}]</span> ${item.q}</strong>`;
     const choices=document.createElement("div"); choices.className="choices";
     item.choices.forEach((c,cidx)=>{
