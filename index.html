@@ -335,6 +335,16 @@
     .v.good{color:var(--good)} .v.warn{color:var(--warn)} .v.bad{color:var(--bad)}
     .score-section{padding:8px;border-top:1px solid var(--border)}
     .score-section-title{font-family:var(--mono);font-size:10px;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
+    .timer-pill {
+  font-size: 16px;
+  padding: 8px 10px;
+}
+
+#timer {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
     .pill{
       padding:3px 7px;border:1px solid var(--border);color:var(--text);display:inline-flex;align-items:center;
       background:var(--panel);box-shadow:inset 1px 1px 0 var(--sunken-light),inset -1px -1px 0 var(--sunken-dark);
@@ -671,7 +681,7 @@
         <div class="pills-col">
           <span class="pill">Total: <span id="scoreTotal" class="mono" style="margin-left:4px">0/30</span></span>
           <span class="pill">Rank: <span id="rank" class="mono" style="margin-left:4px">—</span></span>
-          <span class="pill">Timer: <span id="timer" class="mono" style="margin-left:4px">—</span></span>
+          <span class="pill timer-pill">Timer: <span id="timer" class="mono" style="margin-left:4px">—</span></span>
         </div>
       </div>
       <div class="score-section">
