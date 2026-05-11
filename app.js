@@ -819,9 +819,12 @@ function startBootSequence(){
    Init
    ========================= */
 document.addEventListener("DOMContentLoaded", async ()=>{
-  startBootSequence();
+  await loadSharedBank();
+   
+  render();
   wireMenuBar();
   wireFx();
-  await loadSharedBank();
-  render();
+
+
+  startBootSequence();
 });
