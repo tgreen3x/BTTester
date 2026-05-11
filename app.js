@@ -799,6 +799,7 @@ function wireFx(){
    Boot Sequence
    ========================= */
 function startBootSequence(){
+  console.log("boot sequence is running.")
   const overlay=document.getElementById("bootOverlay");
   const log=document.getElementById("bootLog");
   const ready=document.getElementById("bootReady");
