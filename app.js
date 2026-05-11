@@ -825,7 +825,7 @@ document.addEventListener("DOMContentLoaded", () => {
   loadSharedBank()
     .then(() => {
       render();
-      wireMenus();
+      wireMenuBar();
       wireSettings();
       wireFx();
     })
