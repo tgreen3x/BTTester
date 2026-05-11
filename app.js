@@ -161,8 +161,6 @@ function resetRotation(){ localStorage.removeItem(QB_ROT_KEY); }
 /* =========================
    Rotation
    ========================= */
-function loadRot(){ try{ return JSON.parse(localStorage.getItem(QB_ROT_KEY)); }catch{ return null; } }
-function saveRot(o){ localStorage.setItem(QB_ROT_KEY,JSON.stringify(o)); }
 function getNextRotatingSet(count=10){
   const bank=getBank();
   let rot=loadRot();
