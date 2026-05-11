@@ -71,3 +71,16 @@ function loadDaily() {
 function saveDaily(d) { 
     localStorage.setItem(DAILY_KEY,JSON.stringify(d)); 
 }
+
+function loadRot() { 
+    try { 
+        return JSON.parse(localStorage.getItem(QB_ROT_KEY)); 
+    } catch { 
+        
+        return null; 
+    } 
+}
+
+function saveRot(o) { 
+    localStorage.setItem(QB_ROT_KEY,JSON.stringify(o)); 
+}
