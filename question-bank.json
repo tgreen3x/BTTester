@@ -15,8 +15,6 @@
   {"id":"FIR-002","domain":"Firestopping","difficulty":3,"style":"CAUSE","q":"After adding new cables through an existing firestopped sleeve, the system was not re-entered per the listing. MOST likely outcome is:","choices":["No impact if sealant remains visible","The fire-resistance-rated assembly may be compromised and fail inspection","Improved fire performance due to added cables","Reduced pathway fill requirements"],"answer":1,"ref":"ITSIMM: Firestopping > Re-entry and compliance","hint":"Re-entry must match the listed system."},
   {"id":"DC-001","domain":"Data Centers","difficulty":2,"style":"PRIMARY","q":"The PRIMARY reason redundant A/B pathways must be physically separated is to:","choices":["Reduce insertion loss","Avoid a single physical incident damaging both pathways","Improve connector reflectance","Simplify labeling"],"answer":1,"ref":"ITSIMM: Data Centers > Redundancy and separation","hint":"Avoid a single point of failure."},
   {"id":"DC-002","domain":"Data Centers","difficulty":2,"style":"MOST","q":"Missing blanking panels in a populated cabinet row MOST directly impacts:","choices":["Copper return loss","Airflow management and cooling efficiency","Fiber core alignment","Bonding conductor impedance"],"answer":1,"ref":"ITSIMM: Data Centers > Airflow management","hint":"Hot/cold air mixing is the trap."}
-]
-[
   {
     "id": "ST-001",
     "domain": "Bonding & Grounding",
