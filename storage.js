@@ -59,3 +59,15 @@ function loadStats() {
 function saveStats(s) { 
     localStorage.setItem(STATS_KEY,JSON.stringify(s)); 
 }
+
+function loadDaily() { 
+    try {
+        return JSON.parse(localStorage.getItem(DAILY_KEY))||{}; 
+    } catch { 
+        return {}; 
+    } 
+}
+
+function saveDaily(d) { 
+    localStorage.setItem(DAILY_KEY,JSON.stringify(d)); 
+}
