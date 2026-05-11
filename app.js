@@ -131,7 +131,7 @@ let sharedBankCache = [];
 
 async function loadSharedBank(){
   try{
-    const res = await fetch("question-bank.json", { cache:"no-store" });
+    const res = await fetch("data/question-bank.json", { cache:"no-store" });
     if(!res.ok) throw new Error(`HTTP ${res.status}`);
     const arr = await res.json();
     if(!Array.isArray(arr)) throw new Error("question-bank.json must be an array.");
