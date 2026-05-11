@@ -245,8 +245,6 @@ function applyDomainStats(round,pickedAnswers){
    Daily Tracking
    ========================= */
 function todayKey(){ const d=new Date(); return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,"0")}-${String(d.getDate()).padStart(2,"0")}`; }
-function loadDaily(){ try{ return JSON.parse(localStorage.getItem(DAILY_KEY))||{}; }catch{ return {}; } }
-function saveDaily(d){ localStorage.setItem(DAILY_KEY,JSON.stringify(d)); }
 function dailyState(){
   const d=loadDaily(),k=todayKey();
   if(!d[k]) d[k]={warmup:false,pressure:false,review:false,wording:false};
