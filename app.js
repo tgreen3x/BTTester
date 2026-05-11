@@ -819,17 +819,12 @@ function startBootSequence(){
 /* =========================
    Init
    ========================= */
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", async ()=>{
+   await loadSharedBank();
+  
+  render();
+  wireMenuBar();
+  wireFx();
+  
   startBootSequence();
-
-  loadSharedBank()
-    .then(() => {
-      render();
-      wireMenuBar();
-      wireSettings();
-      wireFx();
-    })
-    .catch((err) => {
-      showErr("Startup failed: " + (err.message || err));
-    });
 });
