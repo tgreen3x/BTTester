@@ -652,6 +652,9 @@ function importAll(obj){
    ========================= */
 function wireMenuBar(){
   const menuBar=document.getElementById("menuBar");
+    document.querySelectorAll(".menuItem, .dropdown-item").forEach(item => {
+  item.addEventListener("keydown", handleMenuKeydown);
+});
 
    function handleMenuKeydown(event) {
   const item = event.currentTarget;
@@ -686,10 +689,7 @@ function wireMenuBar(){
   menuBar.querySelectorAll(".menuItem").forEach(item=>{
     item.addEventListener("mouseenter",()=>{
       const anyOpen=[...menuBar.querySelectorAll(".menuItem")].some(i=>i.classList.contains("open"));
-      if(anyOpen){ closeAllMenus(); item.classList.add("open"); document.querySelectorAll(".menuItem, .dropdown-item").forEach(item => {
-  item.addEventListener("keydown", handleMenuKeydown);
-});
-                 }
+      if(anyOpen){ closeAllMenus(); item.classList.add("open"); }
     });
   });
 
