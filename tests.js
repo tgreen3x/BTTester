@@ -13,4 +13,47 @@ function runTests() {
   console.assert(rankFromTotal(10) === "INSTALLER", "10 should be INSTALLER");
 
   console.log("Rank tests complete.");
+const validQuestion = {
+  id: "TEST-001",
+  domain: "Fiber",
+  difficulty: 2,
+  style: "DEF",
+  q: "Microbending primarily increases:",
+  choices: ["Reflectance", "Attenuation", "Speed", "Crosstalk"],
+  answer: 1,
+  ref: "Test",
+  hint: "Stress causes loss."
+};
+
+console.assert(
+  normalizeQuestion(validQuestion).id === "TEST-001",
+  "Valid multiple choice question should normalize"
+);
+
+const badQuestionMissingId = {
+  domain: "Fiber",
+  q: "Missing ID test",
+  choices: ["A", "B", "C", "D"],
+  answer: 1
+};
+
+console.assert(
+  normalizeQuestion(badQuestionMissingId) === null,
+  "Question missing ID should be rejected"
+);
+
+const badQuestionWrongChoices = {
+  id: "BAD-CHOICES",
+  domain: "Fiber",
+  q: "Bad choices test",
+  choices: ["A", "B"],
+  answer: 1
+};
+
+console.assert(
+  normalizeQuestion(badQuestionWrongChoices) === null,
+  "Multiple choice question with fewer than 4 choices should be rejected"
+);
+
+console.log("Question normalization tests complete.");
 }
