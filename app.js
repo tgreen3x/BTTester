@@ -653,6 +653,21 @@ function importAll(obj){
 function wireMenuBar(){
   const menuBar=document.getElementById("menuBar");
 
+   function handleMenuKeydown(event) {
+  const item = event.currentTarget;
+
+  if (event.key === "Enter" || event.key === " ") {
+    event.preventDefault();
+    item.click();
+  }
+
+  if (event.key === "Escape") {
+    document.querySelectorAll(".menuItem.open").forEach(menu => {
+      menu.classList.remove("open");
+    });
+  }
+}
+
   // Toggle open/close on click
   menuBar.addEventListener("click",(e)=>{
     const item=e.target.closest(".menuItem");
@@ -671,7 +686,10 @@ function wireMenuBar(){
   menuBar.querySelectorAll(".menuItem").forEach(item=>{
     item.addEventListener("mouseenter",()=>{
       const anyOpen=[...menuBar.querySelectorAll(".menuItem")].some(i=>i.classList.contains("open"));
-      if(anyOpen){ closeAllMenus(); item.classList.add("open"); }
+      if(anyOpen){ closeAllMenus(); item.classList.add("open"); document.querySelectorAll(".menuItem, .dropdown-item").forEach(item => {
+  item.addEventListener("keydown", handleMenuKeydown);
+});
+                 }
     });
   });
 
