@@ -56,4 +56,18 @@ console.assert(
 );
 
 console.log("Question normalization tests complete.");
+const bankWithDuplicate = [
+  validQuestion,
+  { ...validQuestion, id: "TEST-001" },
+  badQuestionMissingId
+];
+
+const report = validateQuestionBank(bankWithDuplicate);
+
+console.assert(report.total === 3, "Validator should count total questions");
+console.assert(report.valid === 2, "Validator should count valid questions");
+console.assert(report.invalid === 1, "Validator should count invalid questions");
+console.assert(report.duplicateIds.includes("TEST-001"), "Validator should detect duplicate IDs");
+
+console.log("Question bank validator tests complete.");
 }
