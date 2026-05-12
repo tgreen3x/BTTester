@@ -426,6 +426,19 @@ function renderDailyWarmup(root){
 
 /* ===== Quiz ===== */
 function renderQuiz(root,opts){
+   const bank = getBank();
+
+   if (bank.length === 0) {
+     root.innerHTML = `
+       <div class="q">
+         <strong>No questions loaded.</strong>
+         <div class="small">
+           Check that question-bank.json exists, is valid JSON, and is being fetched from the correct path.
+         </div>
+       </div>
+     `;
+     return;
+}
   const isReview=opts.mode==="review";
   let round=isReview?buildReviewSet(10,0.7):getFreshSet(10);
   round=round.map(shuffleQuestionChoices);
