@@ -442,9 +442,13 @@ function setSidebarMode(mode) {
 
   const panels = {
     default: {
-      title: "▐ Technician Scoreboard",
-      modeTitle: "",
-      content: ""
+      title: "▐ Study Dashboard",
+  modeTitle: "Welcome",
+  content: `
+    <span class="pill">Choose a study mode to begin</span>
+    <span class="pill">Recommended: <span class="mono" style="margin-left:4px">Daily Training</span></span>
+    <span class="pill">Use misses to review weak spots</span>
+    <span class="pill">Use flashcards for quick recall</span>
     },
     daily: {
       title: "▐ Daily Training",
@@ -459,7 +463,6 @@ function setSidebarMode(mode) {
       title: "▐ Technician Scoreboard",
       modeTitle: "",
       content: ""
-      `
     },
     misses: {
       title: "▐ Misses Deck",
