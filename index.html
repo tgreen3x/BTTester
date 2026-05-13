@@ -178,42 +178,23 @@ role="button">📸 Images (PDF)</div>
     </main>
 
     <!-- RIGHT SIDEBAR: Scoreboard -->
-    <aside class="sidebar-right">
-      <div class="scoreboard-header">▐ Technician Scoreboard</div>
-      <div class="scoreBox">
-        <div class="mini"><div class="k">Concept</div><div class="v" id="scoreConcept">0</div></div>
-        <div class="mini"><div class="k">Hier.</div><div class="v" id="scoreHierarchy">0</div></div>
-        <div class="mini"><div class="k">Word.</div><div class="v" id="scoreWording">0</div></div>
+     <div class="score-section-title" id="sidebarModeTitle">Current Mode</div>
+      <div class="pills-col" id="sidebarModeContent">
+        <!-- app.js will fill this -->
       </div>
-      <div class="score-section">
-        <div class="score-section-title">Session</div>
-        <div class="pills-col">
-          <span class="pill">Total: <span id="scoreTotal" class="mono" style="margin-left:4px">0/30</span></span>
-          <span class="pill">Rank: <span id="rank" class="mono" style="margin-left:4px">—</span></span>
-          <span class="pill timer-pill">Timer: <span id="timer" class="mono" style="margin-left:4px">—</span></span>
-        </div>
-      </div>
-      <div class="score-section">
-        <div class="score-section-title">Bank &amp; Progress</div>
-        <div class="pills-col">
-          <span class="pill">Bank: <span id="bankSize" class="mono" style="margin-left:4px">—</span></span>
-          <span class="pill">Misses: <span id="missCount" class="mono" style="margin-left:4px">0</span></span>
-          <span class="pill">Streak: <span id="streak" class="mono" style="margin-left:4px">0</span></span>
-        </div>
-      </div>
-      <div class="score-section">
-        <div class="score-section-title">Domain Stats</div>
-        <div id="domainStatsBox" style="font-size:11px"></div>
-      </div>
-      <div class="score-section" style="margin-top:auto;padding-top:10px">
-        <div class="score-section-title">Resources</div>
-        <div class="pills-col">
-          <a class="pill" href="BICSI_Technician_Training_Manual.pdf" target="_blank" rel="noopener" style="text-decoration:none">📄 Training Manual</a>
-          <a class="pill" href="BICSI_Technician_Practice_Test.pdf" target="_blank" rel="noopener" style="text-decoration:none">📝 Practice Test</a>
-          <a class="pill" href="BICSI_Technician_Flashcards.pdf" target="_blank" rel="noopener" style="text-decoration:none">🗂 Flashcards PDF</a>
-        </div>
-      </div>
-    </aside>
+    </div>
+  </div>
+
+  <!-- RESOURCES: Keep available at the bottom -->
+  <div class="score-section" style="margin-top:auto;padding-top:10px">
+    <div class="score-section-title">Resources</div>
+    <div class="pills-col">
+      <a class="pill" href="BICSI_Technician_Training_Manual.pdf" target="_blank" rel="noopener" style="text-decoration:none">📄 Training Manual</a>
+      <a class="pill" href="BICSI_Technician_Practice_Test.pdf" target="_blank" rel="noopener" style="text-decoration:none">📝 Practice Test</a>
+      <a class="pill" href="BICSI_Technician_Flashcards.pdf" target="_blank" rel="noopener" style="text-decoration:none">🗂 Flashcards PDF</a>
+    </div>
+  </div>
+</aside>
 
   </div><!-- /body-layout -->
 
