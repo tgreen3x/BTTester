@@ -429,6 +429,86 @@ function render(){
   if(state.mode==="bank")       renderBankManager(main);
 }
 
+function setSidebarMode(mode) {
+  const sidebarTitle = document.getElementById("sidebarTitle");
+  const defaultPanel = document.getElementById("sidebarDefaultPanel");
+  const modePanel = document.getElementById("sidebarModePanel");
+  const modeTitle = document.getElementById("sidebarModeTitle");
+  const modeContent = document.getElementById("sidebarModeContent");
+
+  if (!sidebarTitle || !defaultPanel || !modePanel || !modeTitle || !modeContent) {
+    return;
+  }
+
+  const panels = {
+    default: {
+      title: "▐ Technician Scoreboard",
+      modeTitle: "",
+      content: ""
+    },
+    daily: {
+      title: "▐ Daily Training",
+      modeTitle: "Daily Training",
+      content: `
+        <span class="pill">Goal: <span class="mono" style="margin-left:4px">30 questions</span></span>
+        <span class="pill">Focus: <span class="mono" style="margin-left:4px">steady practice</span></span>
+        <span class="pill">Tip: read each question carefully</span>
+      `
+    },
+    pressure: {
+      title: "▐ Pressure Round",
+      modeTitle: "Timed Practice",
+      content: `
+        <span class="pill">Mode: <span class="mono" style="margin-left:4px">timed</span></span>
+        <span class="pill">Focus: <span class="mono" style="margin-left:4px">speed + accuracy</span></span>
+        <span class="pill">Tip: answer the easy ones first</span>
+      `
+    },
+    misses: {
+      title: "▐ Misses Deck",
+      modeTitle: "Review Missed Questions",
+      content: `
+        <span class="pill">Purpose: targeted review</span>
+        <span class="pill">Focus: weak concepts</span>
+        <span class="pill">Tip: slow down and learn why</span>
+      `
+    },
+    flashcards: {
+      title: "▐ Flashcards",
+      modeTitle: "Flashcard Review",
+      content: `
+        <span class="pill">Purpose: memory practice</span>
+        <span class="pill">Focus: terms and definitions</span>
+        <span class="pill">Tip: say the answer before flipping</span>
+      `
+    },
+    wording: {
+      title: "▐ Wording Lab",
+      modeTitle: "Question Wording Practice",
+      content: `
+        <span class="pill">Focus: tricky wording</span>
+        <span class="pill">Watch for: always / never</span>
+        <span class="pill">Tip: identify what the question is really asking</span>
+      `
+    }
+  };
+
+  const panel = panels[mode] || panels.default;
+
+  sidebarTitle.textContent = panel.title;
+
+  if (mode === "default") {
+    defaultPanel.hidden = false;
+    modePanel.hidden = true;
+    return;
+  }
+
+  defaultPanel.hidden = true;
+  modePanel.hidden = false;
+  modeTitle.textContent = panel.modeTitle;
+  modeContent.innerHTML = panel.content;
+}
+
 /* ===== Daily ===== */
 function renderDaily(root){
   const d=dailyState();
@@ -916,3 +996,4 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   
   startBootSequence();
 });
+setSidebarMode("daily");
