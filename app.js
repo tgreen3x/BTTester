@@ -456,12 +456,9 @@ function setSidebarMode(mode) {
       `
     },
     pressure: {
-      title: "▐ Pressure Round",
-      modeTitle: "Timed Practice",
-      content: `
-        <span class="pill">Mode: <span class="mono" style="margin-left:4px">timed</span></span>
-        <span class="pill">Focus: <span class="mono" style="margin-left:4px">speed + accuracy</span></span>
-        <span class="pill">Tip: answer the easy ones first</span>
+      title: "▐ Technician Scoreboard",
+      modeTitle: "",
+      content: ""
       `
     },
     misses: {
