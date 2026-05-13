@@ -856,11 +856,11 @@ function wireMenuBar(){
   });
 
   // Session menu
-  document.getElementById("menuHome").addEventListener("click",()=>{ state.mode="daily"; saveState(); render(); closeAllMenus(); });
-  document.getElementById("menuDaily").addEventListener("click",()=>{ state.mode="daily"; saveState(); render(); closeAllMenus(); });
-  document.getElementById("menuPressure").addEventListener("click",()=>{ state.mode="pressure"; saveState(); render(); closeAllMenus(); });
-  document.getElementById("menuFlashcards").addEventListener("click",()=>{ state.mode="flashcards"; saveState(); render(); closeAllMenus(); });
-  document.getElementById("menuWording").addEventListener("click",()=>{ state.mode="wording"; saveState(); render(); closeAllMenus(); });
+  document.getElementById("menuHome").addEventListener("click",()=>{ state.mode="daily"; setSidebarMode("default"); saveState(); render(); closeAllMenus(); });
+  document.getElementById("menuDaily").addEventListener("click",()=>{ state.mode="daily"; setSidebarMode("daily"); saveState(); render(); closeAllMenus(); });
+  document.getElementById("menuPressure").addEventListener("click",()=>{ state.mode="pressure"; setSidebarMode("pressure"); saveState(); render(); closeAllMenus(); });
+  document.getElementById("menuFlashcards").addEventListener("click",()=>{ state.mode="flashcards"; setSidebarMode("flashcards"); saveState(); render(); closeAllMenus(); });
+  document.getElementById("menuWording").addEventListener("click",()=>{ state.mode="wording"; setSidebarMode("wording"); saveState(); render(); closeAllMenus(); });
 
   // Trainer menu
   document.getElementById("menuReview").addEventListener("click",()=>{ state.mode="review"; saveState(); render(); closeAllMenus(); });
@@ -996,4 +996,3 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   
   startBootSequence();
 });
-setSidebarMode("daily");
