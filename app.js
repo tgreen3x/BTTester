@@ -449,11 +449,12 @@ function setSidebarMode(mode) {
     <span class="pill">Recommended: <span class="mono" style="margin-left:4px">Daily Training</span></span>
     <span class="pill">Use misses to review weak spots</span>
     <span class="pill">Use flashcards for quick recall</span>
+    `
     },
     daily: {
       title: "▐ Daily Training",
       modeTitle: "Daily Training",
-      content:
+      content: `
         <span class="pill">Goal: <span class="mono" style="margin-left:4px">30 questions</span></span>
         <span class="pill">Focus: <span class="mono" style="margin-left:4px">steady practice</span></span>
         <span class="pill">Tip: read each question carefully</span>
@@ -993,6 +994,6 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   render();
   wireMenuBar();
   wireFx();
-  
+  setSidebarMode("default");
   startBootSequence();
 });
