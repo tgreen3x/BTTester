@@ -497,7 +497,7 @@ function setSidebarMode(mode) {
 
   sidebarTitle.textContent = panel.title;
 
-  if (mode === "pressure") {
+  if (mode === "default") {
     defaultPanel.hidden = false;
     modePanel.hidden = true;
     return;
