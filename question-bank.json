@@ -5340,5 +5340,1551 @@
       "Because data centers rarely use structured cabling practices"
     ],
     "answer": 1
+  },
+  {
+    "id": "MCQ-001",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "TRUE_FALSE",
+    "q": "Impedance is the combined effect of resistance, inductance, and conductance of the circuit.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-002",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "When an SC connector is used for singlemode optical fibers, the adapter should be:",
+    "choices": [
+      "Black",
+      "Green",
+      "Beige",
+      "Blue"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-003",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "TRUE_FALSE",
+    "q": "In post-cutover cable removal, always start by cutting in the middle and working towards the ends.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-004",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In a cable designated S/FTP, which letter denotes the shield surrounding each of the pairs?",
+    "choices": [
+      "F",
+      "S"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-005",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "When installing backbone cable top down in a vertical pathway, a ______ is generally required to ensure the jacket is not damaged as it enters the pathway.",
+    "choices": [
+      "Reel brake",
+      "Guide rope",
+      "Pulley",
+      "Bullwheel"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-006",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "A cable that is installed between an IC (BD) and an HC (FD) is a ______-level backbone.",
+    "choices": [
+      "Floor",
+      "Second",
+      "Building",
+      "First"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-007",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Voltage multiplied by current produces ______ power.",
+    "choices": [
+      "Sustained",
+      "Average",
+      "True",
+      "Apparent"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-008",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "______ are a form of communication between the cabling installation team and the contractor or owner, defining the specifics of how a job will be undertaken.",
+    "choices": [
+      "Submittals",
+      "RFI’s"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-009",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Interbuilding OSP or intrabuilding inside plant splicing connector modules for balanced twisted-pair cable can accommodate ______ AWG wires, depending on the manufacturer.",
+    "choices": [
+      "20 to 26",
+      "22 to 28",
+      "24 to 30"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-010",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The T-series drawings for telecommunications include ______, showing drop locations and cable IDs.",
+    "choices": [
+      "T0",
+      "T1",
+      "T2",
+      "T3"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-011",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "A CP must at least be how far from the nearest TR?",
+    "choices": [
+      "45 ft",
+      "30 ft",
+      "70 ft",
+      "50 ft"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-012",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Interbuilding circuits are considered to have a lightning exposure unless the cable runs are ______ or less, directly buried or in underground conduit.",
+    "choices": [
+      "30.5 m (100 ft)",
+      "36.6 m (120 ft)",
+      "42.7 m (140 ft)",
+      "90 m (295 ft)"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-013",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Propagation delay for 100 ohm 4-pair cables is expressed in seconds.",
+    "choices": [
+      "Pico",
+      "Micro",
+      "Milli",
+      "Nano"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-014",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "An optical fiber cable containing two or more fiber types is called a ______ fiber cable.",
+    "choices": [
+      "Bundled",
+      "Hybrid",
+      "Composite",
+      "Compound"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-015",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "______ is the unwanted transfer of a signal’s electromagnetic energy to other circuits.",
+    "choices": [
+      "Attenuation",
+      "Reflection",
+      "Capacitance",
+      "Crosstalk"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-016",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Class ______ administration addresses infrastructure with multiple buildings at a single site.",
+    "choices": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-017",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The ______ cable marking for fire rating designates a \"communications, limited\" type of cable.",
+    "choices": [
+      "CM",
+      "CML",
+      "CMG",
+      "CMX"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-018",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What category of twisted pair cable would have a MHz range of 500?",
+    "choices": [
+      "CAT3",
+      "CAT5e",
+      "Class Fa",
+      "CAT6A"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-019",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What color are pins 4,5 on a USOC pin out?",
+    "choices": [
+      "White Bl/Bl",
+      "Bl/White Bl",
+      "White Or/Or",
+      "Bl/Or"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-020",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The minimum bend radius at rest for an optical fiber cable with up to four strands is:",
+    "choices": [
+      "25 mm (1 in)",
+      "51 mm (2 in)",
+      "76 mm (3 in)",
+      "102 mm (4 in)"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-021",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The physical length of a balanced twisted-pair cable is ______ than the electrically measured length.",
+    "choices": [
+      "Shorter",
+      "Always the same as",
+      "Longer"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-022",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In optical fiber troubleshooting, an ______ can be used to isolate a faulty adapter.",
+    "choices": [
+      "Interferometer",
+      "OLTS",
+      "OTDR"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-023",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "If a cable lubricant is used to reduce friction during installation, it must be allowed to dry before cable ______ is completed.",
+    "choices": [
+      "Termination",
+      "Testing"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-024",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Multimode optical fiber cable attenuation at 1300 nm can be as high as ______ dB/km.",
+    "choices": [
+      "1.0",
+      "1.5",
+      "3.0",
+      "3.5"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-025",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What are the minimum TE power requirements?",
+    "choices": [
+      "240V/50a",
+      "120V/20a",
+      "120V/15a",
+      "480/30a"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-026",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "For vertical pathways, cabling is more easily pulled from the ______, but a ______ may be needed.",
+    "choices": [
+      "Top down; reel brake",
+      "Top down; winch",
+      "Bottom up; reel brake",
+      "Bottom up; winch"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-027",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "If the scale is 1/16th inch = 1 ft, how long would a 9 1/2 inch conduit run be?",
+    "choices": [
+      "136 ft",
+      "142 ft",
+      "152 ft",
+      "186 ft"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-028",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "An OTDR uses the effects of ______ reflection and ______ scattering to measure the characteristics of an optical fiber.",
+    "choices": [
+      "Fresnel; Rayleigh",
+      "Rayleigh; Fresnel"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-029",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "When installing plywood backboard on a framed wall with toggle bolts, use a ______ spacing for the bolts around the entire perimeter of the board.",
+    "choices": [
+      "152 mm (6 in)",
+      "203 mm (8 in)",
+      "305 mm (12 in)",
+      "610 mm (24 in)"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-030",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Support for wire mesh cable trays are required at every ______ between the ends.",
+    "choices": [
+      "0.9 m (3 ft)",
+      "1.2 m (4 ft)",
+      "1.52 m (5 ft)",
+      "1.81 m (6 ft)"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-031",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In the optional T568B designation for pin/pair assignments, Pair 3 is assigned to pins:",
+    "choices": [
+      "1 and 2",
+      "4 and 5",
+      "3 and 6",
+      "7 and 8"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-032",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "For multimode fiber, a 1.5 dB/km attenuation value is associated with ______ wavelength.",
+    "choices": [
+      "850 nm",
+      "1300 nm"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-033",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is the TIA Article for Labeling?",
+    "choices": [
+      "TIA 606",
+      "TIA 607",
+      "TIA 569",
+      "TIA 568"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-034",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The ______ the conductors of a pair is maintained at a close tolerance to keep any resistance unbalance to a minimum.",
+    "choices": [
+      "Diameter of",
+      "Separation between"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-035",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In cable testing, the channel test configuration ______ the patch cords on each end.",
+    "choices": [
+      "Includes",
+      "Excludes"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-036",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "______ is the time required for a signal to travel from one end of the transmission path to the other.",
+    "choices": [
+      "Latency delay",
+      "Propagation delay",
+      "Delay skew",
+      "NVP"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-037",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Screened/Shielded twisted-pair cable has ______ UTP cable.",
+    "choices": [
+      "The same or lower impedance than",
+      "The same impedance as",
+      "A lower impedance than",
+      "A higher impedance than"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-038",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The minimum standoff distance of a PBB is:",
+    "choices": [
+      "25 mm (1 in)",
+      "51 mm (2 in)",
+      "100 mm (3.94 in)"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-039",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Testing with an OTDR is a(n) ______ component of certification testing for optical fiber cabling.",
+    "choices": [
+      "Mandatory",
+      "Optional"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-040",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The TDR method of cable testing finds faults by measuring the ______ the electrical pulse from the fault.",
+    "choices": [
+      "Round-trip time of",
+      "Number of reflections in",
+      "Change in intensity of",
+      "Change in frequency of"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-041",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Canned air ______ be used to directly clean the end face of an optical fiber connector.",
+    "choices": [
+      "Can",
+      "Should not"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-042",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In horizontal cabling, the maximum allowable cable length is:",
+    "choices": [
+      "90 m (295 ft)",
+      "100 m (328 ft)",
+      "300 m (984 ft)"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-043",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is the OLTS power budget for an OS2 fiber that contains 3 mated pairs, 2 fusion splices and is 2 km long?",
+    "choices": [
+      "2.25 dB",
+      "3.65 dB",
+      "2.9 dB",
+      "3.85 dB"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-044",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The color code chart for a 12-fiber cable assigns ______ as the color of the 12th fiber.",
+    "choices": [
+      "Aqua",
+      "Yellow",
+      "Rose",
+      "Violet"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-045",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "MOST",
+    "q": "Most high-pair copper cable splices are made using the ______ splicing technique.",
+    "choices": [
+      "Crossover",
+      "Foldback",
+      "Branch",
+      "Inline"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-046",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Cables are designed to achieve constant characteristic impedance ______ cable length.",
+    "choices": [
+      "Over a maximum",
+      "Independent of the"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-047",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "______ is the random, unwanted energy that is coupled into a conductor or circuit from an external source.",
+    "choices": [
+      "EMI",
+      "MRI",
+      "RFI",
+      "EMF"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-048",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is used to connect an RBB to an SBB or PBB?",
+    "choices": [
+      "TEBC",
+      "TBB",
+      "ACEG",
+      "EGC"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": "Telecommunications Equipment Bonding Conductor"
+  },
+  {
+    "id": "MCQ-049",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The horizontal distance from the base of an extension ladder to the supporting wall should be ______ percent of the ladder’s working length.",
+    "choices": [
+      "20",
+      "25",
+      "33",
+      "40"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-050",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "A(n) ______ list is a formal listing of items or issues that require resolution before the project is designated as complete.",
+    "choices": [
+      "Punch",
+      "Acceptance",
+      "Wrap-up",
+      "Resolution"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-051",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "TRUE_FALSE",
+    "q": "An ICT installer may be deemed personally responsible for faulty firestopping.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-052",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "An OLTS ______ determines the location of a defect within an optical fiber cable.",
+    "choices": [
+      "Cannot",
+      "Can"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-053",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "When preparing the pathway for conduit, always make penetrations through rated walls and floors ______ installing the supporting hangers, clamps, and trapezes.",
+    "choices": [
+      "Prior to",
+      "As the last step after",
+      "At the same time as"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-054",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "______ is a type of connection process for optical fiber connectors.",
+    "choices": [
+      "Scribe and polish",
+      "Cleave and lock",
+      "Cleave and polish",
+      "Scribe and lock"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-055",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In optical fibers, attenuation of light pulses occur as a result of:",
+    "choices": [
+      "Absorption",
+      "Reflection",
+      "Spreading",
+      "Dispersion"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-056",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Best practice for pulling cable dictates pulling from the ______ to the ______.",
+    "choices": [
+      "Telecommunications space; work area",
+      "Approximate midpoint; telecommunications space and work area",
+      "Work area; telecommunications space"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-057",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Temporary cabling, used to provide service until the cutover is completed and then removed, ______ applicable fire and safety codes.",
+    "choices": [
+      "Is considered exempt from",
+      "Should never violate"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-058",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "How many degrees of bend can a conduit run of 30 feet have?",
+    "choices": [
+      "270",
+      "360",
+      "90",
+      "180"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-059",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The minimum spacing for mounting equipment on a one rack mounting unit (RMU), equal to:",
+    "choices": [
+      "40 mm (1.57 in)",
+      "45 mm (1.75 in)",
+      "50 mm (1.96 in)",
+      "55 mm (2.16 in)"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-060",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "______ is the unwanted signal coupling from a disturbing pair in a cable to a disturbed pair in another cable.",
+    "choices": [
+      "AXT",
+      "ACRF",
+      "NEXT",
+      "FEXT"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-061",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The loss characterization for outdoor OS2 optical fiber cable is ______ dB per km.",
+    "choices": [
+      "0.2",
+      "0.4",
+      "0.5",
+      "1.0"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-062",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "TRUE_FALSE",
+    "q": "Equipment rack sizes of 483 mm (19 in) and 584 mm (23 in) denote actual width.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-063",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What color is used for cabling subsystem 3?",
+    "choices": [
+      "Purple",
+      "Orange",
+      "Blue",
+      "White"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-064",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "If separation is required for telecommunications cabling, the recommended minimum distance from unshielded power lines in proximity to open pathways is:",
+    "choices": [
+      "152 mm (6 in)",
+      "305 mm (12 in)",
+      "610 mm (24 in)",
+      "1220 mm (48 in)"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-065",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "How much untwist is allowed during a CAT3 termination?",
+    "choices": [
+      "3 inches",
+      "2.5 inches",
+      ".5 inches",
+      "1 inch"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-066",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Conduits greater than 51 mm (2 in) should maintain a bend radius of at least ______ times the internal conduit diameter.",
+    "choices": [
+      "Six",
+      "Eight",
+      "Ten",
+      "Twelve"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-067",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The red super binder group identifies pairs ______ in a 1200-pair intrabuilding backbone cable.",
+    "choices": [
+      "1-600",
+      "301-600",
+      "601-900",
+      "601-1200"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-068",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The color codes for cross-connect fields use the color ______ to identify horizontal cable terminations.",
+    "choices": [
+      "Green",
+      "Blue",
+      "Purple",
+      "Yellow"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-069",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "When an SC connector adapter is used for OM1 optical fibers, the adapter color should be:",
+    "choices": [
+      "Green",
+      "Beige",
+      "Black",
+      "Blue"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-070",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "TRUE_FALSE",
+    "q": "The results of a site survey are used to develop the project schedule and the installation job plan.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-071",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What type of fiber supports CWDM?",
+    "choices": [
+      "OM1",
+      "OS2",
+      "OM5",
+      "OS1a"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-072",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "If scrap wire pairs from discarded cables are wrapped around binders for identification, they can act as ______ chokes that are detrimental to transmission.",
+    "choices": [
+      "Inductive",
+      "Reactive",
+      "Capacitive",
+      "Reflective"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-073",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In OTDR testing, ______ dead zones are always shorter than ______ dead zones.",
+    "choices": [
+      "Attenuation; reflection",
+      "Backscatter; event",
+      "Reflection; backscatter",
+      "Event; attenuation"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-074",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "TRUE_FALSE",
+    "q": "It is typically the ITS installer’s responsibility to verify the AC grounding (earthing) electrode system quality.",
+    "choices": [
+      "True",
+      "False"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-075",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In optical fiber testing, an overall loss measurement using an OTDR is ______ an end-to-end attenuation measurement made with an OLTS.",
+    "choices": [
+      "Not as accurate as",
+      "More accurate than",
+      "Approximately equal in accuracy to"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-076",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What should be done if a reel of fiber is delivered with visible damage?",
+    "choices": [
+      "Accept the delivery and test",
+      "Reject the delivery"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-077",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What type of antenna works well in tunnels?",
+    "choices": [
+      "Radial",
+      "Directional",
+      "Omnidirectional",
+      "Semidirectional"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-078",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Backbone cabling is used for connecting the MC (CD) located in the ER with the ______ located in the TR.",
+    "choices": [
+      "IC (BC) or HC (FD)",
+      "IC (BD)",
+      "HC (FD)"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-079",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What color are APC connectors?",
+    "choices": [
+      "Blue",
+      "Green",
+      "Aqua",
+      "Black"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-080",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "Which one of the following is an example of a legacy-style optical fiber connector?",
+    "choices": [
+      "LC",
+      "MU",
+      "SC",
+      "FC"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-081",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "MOST",
+    "q": "The most common coaxial connector in the video industry is the ______ connector.",
+    "choices": [
+      "N",
+      "F",
+      "RG",
+      "BNC"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-082",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "Which of the following makes the biggest impression in a face-to-face meeting with the customer?",
+    "choices": [
+      "Tone of voice",
+      "Choice of words",
+      "Body language"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-083",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "The designation ______ is used to identify overall unshielded twisted-pair with unshielded twisted pair cable.",
+    "choices": [
+      "U/UTP",
+      "U/FTP",
+      "F/UTP",
+      "UTP"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-084",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "Which OLTS reference method is the best and most accurate?",
+    "choices": [
+      "1 Jumper",
+      "2 Jumper",
+      "3 Jumper"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-085",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "ISO class C has a frequency characterization to ______ MHz.",
+    "choices": [
+      "10",
+      "16",
+      "100",
+      "250"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-086",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "______ coaxial connectors have a center pin that must be installed over the cable’s center conductor and are used with RG59 coaxial cable.",
+    "choices": [
+      "F",
+      "N",
+      "BNC"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-087",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "When installing plywood backboard on a framed wall with toggle bolts, use a ______ spacing for the bolts around the entire perimeter of the board.",
+    "choices": [
+      "152 mm (6 in)",
+      "203 mm (8 in)",
+      "305 mm (12 in)",
+      "610 mm (24 in)"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-088",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "In OTDR testing, a longer pulse width will produce a ______ dead zone than a shorter pulse width.",
+    "choices": [
+      "Longer",
+      "Shorter"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-089",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "A standard optical fiber microscope ______ inspect connectors located behind optical adapters.",
+    "choices": [
+      "Can",
+      "Is not able to"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-090",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is an example of a typical PON topology?",
+    "choices": [
+      "Hierarchical Star",
+      "Bus",
+      "Token Ring",
+      "Branch"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-091",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "How far should a Wireless Access Point be from metal obstructions?",
+    "choices": [
+      "3.3 ft (1 m)",
+      "1 ft (.5 m)",
+      "6.6 ft (2 m)",
+      "13 ft (4 m)"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-092",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is the most common type of labeling?",
+    "choices": [
+      "RFID",
+      "Adhesive",
+      "Barcode",
+      "Handwritten"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-093",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is the most important step for installing a pull rope through conduit?",
+    "choices": [
+      "Tensile strength requirements",
+      "Degrees of bend",
+      "Tying the rope off",
+      "Color of the rope"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-094",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "How much clearance is needed for open top cable supports?",
+    "choices": [
+      "1 in",
+      "3 in",
+      "12 in",
+      "6 in"
+    ],
+    "answer": 1,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-095",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "Twisted pair cabling requires what type of termination?",
+    "choices": [
+      "IDC Terminal",
+      "8P8C",
+      "Punch Down",
+      "RJ-45"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-096",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "Which of the following would be considered an S.F.F. connector?",
+    "choices": [
+      "LR",
+      "F",
+      "LC",
+      "SC"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-097",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "A TE can serve how much square footage building?",
+    "choices": [
+      "3,600 ft²",
+      "10,000 ft²",
+      "100 ft²",
+      "1,500 ft²"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-098",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "KNOWLEDGE",
+    "q": "How far should cut in wall boxes be from wall members?",
+    "choices": [
+      "2 in",
+      "8 in",
+      "1 ft",
+      "4 in"
+    ],
+    "answer": 3,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-099",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What is the allowable attenuation for OS2 operating at 1310 nm?",
+    "choices": [
+      "3.5 dB",
+      "1 dB",
+      "0.4 dB",
+      "0.1 dB"
+    ],
+    "answer": 2,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
+  },
+  {
+    "id": "MCQ-100",
+    "domain": "ICT Installation",
+    "difficulty": 2,
+    "style": "DEF",
+    "q": "What type of coax connector uses a compression fitting?",
+    "choices": [
+      "F",
+      "BNC",
+      "RJ-11",
+      "APC"
+    ],
+    "answer": 0,
+    "ref": "Uploaded 100-question quiz",
+    "hint": ""
   }
 ]
