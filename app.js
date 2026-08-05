@@ -384,22 +384,38 @@ function setThemeFont(){
 /* =========================
    Timer
    ========================= */
-let timerInterval=null;
+let timerInterval = null;
+
 function startTimer(seconds){
   stopTimer();
-  let remaining=seconds;
-  const el=document.getElementById("timer");
-  const tick=()=>{
-    const m=String(Math.floor(remaining/60)).padStart(2,"0");
-    const s=String(remaining%60).padStart(2,"0");
-    el.textContent=`${m}:${s}`;
-    if(remaining<=0){stopTimer();el.textContent="00:00";}
+  let remaining = Number(seconds) || 0;
+  const el = document.getElementById("timer");
+  if (!el) return; // guard if element not present
+
+  const tick = () => {
+    const m = String(Math.floor(remaining / 60)).padStart(2, "0");
+    const s = String(remaining % 60).padStart(2, "0");
+    el.textContent = `${m}:${s}`;
+    if (remaining <= 0) {
+      // clear the running interval (if any) and show finished time
+      if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+      el.textContent = "00:00";
+      return;
+    }
     remaining--;
   };
-  tick(); timerInterval=setInterval(tick,1000);
-}
-function stopTimer(){ if(timerInterval){clearInterval(timerInterval);timerInterval=null;} }
 
+  // run once immediately and only start the repeating interval if there's time left
+  tick();
+  if (remaining > 0) timerInterval = setInterval(tick, 1000);
+}
+
+function stopTimer(){
+  if (timerInterval){
+    clearInterval(timerInterval);
+    timerInterval = null;
+  }
+}
 /* =========================
    Render
    ========================= */
