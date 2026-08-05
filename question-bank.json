@@ -1,5 +1,5 @@
 [
-  {"id":"CORE-BND-001","domain":"Bonding & Grounding","difficulty":2,"style":"PRIMARY","q":"The PRIMARY purpose of bonding in telecommunications spaces is to:","choices":["Provide a dedicated path for normal operating current","Equalize potential differences between conductive components to reduce shock hazards","Eliminate electromagnetic interference by shielding","Increase signal strength by reducing attenuation"],"answer":1,"ref":"ITSIMM: Bonding & Grounding > Purpose and principles","hint":"Bonding = equalize potential; grounding = reference."},
+  {"id":"CORE-BND-001","domain":"Bonding & Grounding","difficulty":2,"style":"PRIMARY","q":"The primary purpose of bonding in telecommunications spaces is to:","choices":["Provide a dedicated path for normal operating current","Equalize potential differences between conductive components to reduce shock hazards","Eliminate electromagnetic interference by shielding","Increase signal strength by reducing attenuation"],"answer":1,"ref":"ITSIMM: Bonding & Grounding > Purpose and principles","hint":"Bonding = equalize potential; grounding = reference."},
   {"id":"CORE-BND-002","domain":"Bonding & Grounding","difficulty":2,"style":"MOST","q":"A grounding/bonding connection is installed on a painted rack. MOST appropriate corrective action is to:","choices":["Increase conductor size to compensate for paint","Add a longer bonding conductor to reduce resistance","Establish metal-to-metal contact (remove paint/use listed hardware) and resecure the connection","Apply dielectric grease over the paint to improve conductivity"],"answer":2,"ref":"ITSIMM: Bonding & Grounding > Connections and terminations","hint":"Paint is an insulator—contact quality matters."},
   {"id":"CORE-BND-003","domain":"Bonding & Grounding","difficulty":3,"style":"MOST","q":"A bonding conductor is routed with multiple tight loops and sharp bends. MOST likely impact is:","choices":["Lower impedance and improved surge performance","Higher impedance and reduced fault/surge performance","Increased optical attenuation","Improved EMI shielding in copper pathways"],"answer":1,"ref":"ITSIMM: Bonding & Grounding > Conductor routing","hint":"Short, straight, and practical reduces impedance."},
   {"id":"CORE-BND-004","domain":"Bonding & Grounding","difficulty":2,"style":"DEF","q":"A TMGB is BEST described as:","choices":["A busbar located in each work area outlet box","The main telecommunications grounding busbar bonded to the building grounding electrode system","A copper splice block for backbone cabling","A device used to test continuity of bonding conductors"],"answer":1,"ref":"ITSIMM: Bonding & Grounding > Busbars","hint":"TMGB = main telecom grounding busbar."},
@@ -9,11 +9,11 @@
   {"id":"CORE-FIB-003","domain":"Fiber","difficulty":3,"style":"CAUSE","q":"An OTDR trace shows a strong reflective event at the near-end connector with minimal overall loss. MOST likely cause is:","choices":["Excessive macro-bending mid-span","A dirty or improperly mated connector interface","Incorrect fiber core size","Too many splices causing cumulative attenuation"],"answer":1,"ref":"ITSIMM: Fiber > OTDR interpretation","hint":"High reflectance at a connector often points to interface issues."},
   {"id":"CORE-FIB-004","domain":"Fiber","difficulty":3,"style":"CAUSE","q":"A link passes at 1310 nm but fails at 1550 nm. MOST likely issue is:","choices":["Copper impedance mismatch","A bend-stress point causing wavelength-sensitive bend loss","Incorrect wire map","Excessive NEXT in the channel"],"answer":1,"ref":"ITSIMM: Fiber > Loss mechanisms","hint":"Longer wavelengths can be more bend-loss sensitive in practice."},
   {"id":"CORE-FIB-005","domain":"Fiber","difficulty":2,"style":"PRIMARY","q":"Microbending in fiber primarily increases:","choices":["Reflectance only","Attenuation (loss)","Crosstalk","Propagation speed"],"answer":1,"ref":"ITSIMM: Fiber > Microbending and macrobending","hint":"Bends/stress = loss."},
-  {"id":"CORE-PWS-001","domain":"Pathways & Spaces","difficulty":2,"style":"PRIMARY","q":"The PRIMARY concern when cable tray fill exceeds recommended capacity is:","choices":["Overheating of fiber due to optical power","Reduced accessibility and limited future expansion","Lower return loss in copper","Increased rack airflow"],"answer":1,"ref":"ITSIMM: Pathways & Spaces > Fill and capacity","hint":"Space and access are the big compliance drivers."},
+  {"id":"CORE-PWS-001","domain":"Pathways & Spaces","difficulty":2,"style":"PRIMARY","q":"The primary concern when cable tray fill exceeds recommended capacity is:","choices":["Overheating of fiber due to optical power","Reduced accessibility and limited future expansion","Lower return loss in copper","Increased rack airflow"],"answer":1,"ref":"ITSIMM: Pathways & Spaces > Fill and capacity","hint":"Space and access are the big compliance drivers."},
   {"id":"CORE-PWS-002","domain":"Pathways & Spaces","difficulty":2,"style":"DEF","q":"A commonly tested maximum conduit fill guideline (without special derating considerations) is:","choices":["20%","40%","60%","80%"],"answer":1,"ref":"ITSIMM: Pathways & Spaces > Conduit fill","hint":"Know the typical fill number used on exams."},
-  {"id":"CORE-FIR-001","domain":"Firestopping","difficulty":2,"style":"PRIMARY","q":"The PRIMARY purpose of firestopping a penetration is to:","choices":["Reduce signal attenuation in cabling","Maintain the fire-resistance rating of the assembly by restoring compartmentalization","Improve airflow through walls","Prevent dust from entering telecom spaces"],"answer":1,"ref":"ITSIMM: Firestopping > Purpose and assemblies","hint":"Think 'listed assembly' and 'compartmentalization'."},
+  {"id":"CORE-FIR-001","domain":"Firestopping","difficulty":2,"style":"PRIMARY","q":"The primary purpose of firestopping a penetration is to:","choices":["Reduce signal attenuation in cabling","Maintain the fire-resistance rating of the assembly by restoring compartmentalization","Improve airflow through walls","Prevent dust from entering telecom spaces"],"answer":1,"ref":"ITSIMM: Firestopping > Purpose and assemblies","hint":"Think 'listed assembly' and 'compartmentalization'."},
   {"id":"CORE-FIR-002","domain":"Firestopping","difficulty":3,"style":"CAUSE","q":"After adding new cables through an existing firestopped sleeve, the system was not re-entered per the listing. MOST likely outcome is:","choices":["No impact if sealant remains visible","The fire-resistance-rated assembly may be compromised and fail inspection","Improved fire performance due to added cables","Reduced pathway fill requirements"],"answer":1,"ref":"ITSIMM: Firestopping > Re-entry and compliance","hint":"Re-entry must match the listed system."},
-  {"id":"CORE-DC-001","domain":"Data Centers","difficulty":2,"style":"PRIMARY","q":"The PRIMARY reason redundant A/B pathways must be physically separated is to:","choices":["Reduce insertion loss","Avoid a single physical incident damaging both pathways","Improve connector reflectance","Simplify labeling"],"answer":1,"ref":"ITSIMM: Data Centers > Redundancy and separation","hint":"Avoid a single point of failure."},
+  {"id":"CORE-DC-001","domain":"Data Centers","difficulty":2,"style":"PRIMARY","q":"The primary reason redundant A/B pathways must be physically separated is to:","choices":["Reduce insertion loss","Avoid a single physical incident damaging both pathways","Improve connector reflectance","Simplify labeling"],"answer":1,"ref":"ITSIMM: Data Centers > Redundancy and separation","hint":"Avoid a single point of failure."},
   {"id":"CORE-DC-002","domain":"Data Centers","difficulty":2,"style":"MOST","q":"Missing blanking panels in a populated cabinet row MOST directly impacts:","choices":["Copper return loss","Airflow management and cooling efficiency","Fiber core alignment","Bonding conductor impedance"],"answer":1,"ref":"ITSIMM: Data Centers > Airflow management","hint":"Hot/cold air mixing is the trap."},
   {
     "id": "ST-001",
@@ -108,7 +108,7 @@
     "domain": "Bonding & Grounding",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY purpose of bonding in telecommunications spaces is to:",
+    "q": "The primary purpose of bonding in telecommunications spaces is to:",
     "choices": [
       "Provide a dedicated path for normal operating current",
       "Equalize potential differences between conductive components to reduce shock hazards",
@@ -278,7 +278,7 @@
     "domain": "Pathways & Spaces",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY concern when cable tray fill exceeds recommended capacity is:",
+    "q": "The primary concern when cable tray fill exceeds recommended capacity is:",
     "choices": [
       "Overheating of fiber due to optical power",
       "Reduced accessibility and limited future expansion",
@@ -312,7 +312,7 @@
     "domain": "Firestopping",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY purpose of firestopping a penetration is to:",
+    "q": "The primary purpose of firestopping a penetration is to:",
     "choices": [
       "Reduce signal attenuation in cabling",
       "Maintain the fire-resistance rating of the assembly by restoring compartmentalization",
@@ -346,7 +346,7 @@
     "domain": "Data Centers",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason redundant A/B pathways must be physically separated is to:",
+    "q": "The primary reason redundant A/B pathways must be physically separated is to:",
     "choices": [
       "Reduce insertion loss",
       "Avoid a single physical incident damaging both pathways",
@@ -468,7 +468,7 @@
     "domain": "Bonding & Grounding",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY purpose of bonding metallic telecommunications components is to:",
+    "q": "The primary purpose of bonding metallic telecommunications components is to:",
     "ref": "ITSIMM: Bonding & Grounding > Purpose and principles",
     "hint": "Bonding is about equalizing potential, not carrying normal load current.",
     "rubric": {
@@ -726,7 +726,7 @@
     "domain": "Pathways & Spaces",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY concern when tray fill exceeds recommended capacity is:",
+    "q": "The primary concern when tray fill exceeds recommended capacity is:",
     "ref": "ITSIMM: Pathways & Spaces > Fill and capacity",
     "hint": "Overfill hurts access, adds stress, and limits expansion.",
     "rubric": {
@@ -770,7 +770,7 @@
     "domain": "Firestopping",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY purpose of firestopping a penetration is to:",
+    "q": "The primary purpose of firestopping a penetration is to:",
     "ref": "ITSIMM: Firestopping > Purpose and assemblies",
     "hint": "Firestop systems preserve rated compartmentation.",
     "rubric": {
@@ -814,7 +814,7 @@
     "domain": "Data Centers",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason redundant A and B pathways are physically separated is to:",
+    "q": "The primary reason redundant A and B pathways are physically separated is to:",
     "ref": "ITSIMM: Data Centers > Redundancy and separation",
     "hint": "Physical separation reduces common-mode failure risk.",
     "rubric": {
@@ -1078,7 +1078,7 @@
     "domain": "Fiber",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason to use manufacturer-approved cleaning materials on connector end faces is to:",
+    "q": "The primary reason to use manufacturer-approved cleaning materials on connector end faces is to:",
     "ref": "ITSIMM: Fiber > Connector cleaning",
     "hint": "Cleaning should improve the interface, not create new defects.",
     "rubric": {
@@ -1166,7 +1166,7 @@
     "domain": "Fiber",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason polarity management matters in duplex fiber links is to:",
+    "q": "The primary reason polarity management matters in duplex fiber links is to:",
     "ref": "ITSIMM: Fiber > Polarity",
     "hint": "Tx must land on Rx.",
     "rubric": {
@@ -1298,7 +1298,7 @@
     "domain": "Copper",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason to observe cable pull-tension limits during copper installation is to prevent:",
+    "q": "The primary reason to observe cable pull-tension limits during copper installation is to prevent:",
     "ref": "ITSIMM: Copper > Pulling practices",
     "hint": "Too much tension can change cable geometry.",
     "rubric": {
@@ -1408,7 +1408,7 @@
     "domain": "Copper",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY function of certification testing on a newly installed copper link is to:",
+    "q": "The primary function of certification testing on a newly installed copper link is to:",
     "ref": "ITSIMM: Copper > Certification",
     "hint": "Certification is about standards-based link performance.",
     "rubric": {
@@ -1496,7 +1496,7 @@
     "domain": "Copper",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason to use proper cable supports rather than resting horizontal cable on ceiling tiles is to:",
+    "q": "The primary reason to use proper cable supports rather than resting horizontal cable on ceiling tiles is to:",
     "ref": "ITSIMM: Copper > Support methods",
     "hint": "Support and access are both part of good installation practice.",
     "rubric": {
@@ -1650,7 +1650,7 @@
     "domain": "Pathways & Spaces",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason to maintain manufacturer bend-radius limits during pathway turns is to:",
+    "q": "The primary reason to maintain manufacturer bend-radius limits during pathway turns is to:",
     "ref": "ITSIMM: Pathways & Spaces > Bend radius",
     "hint": "Bend radius affects both immediate and long-term reliability.",
     "rubric": {
@@ -2046,7 +2046,7 @@
     "domain": "Data Centers",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason to coordinate telecom pathways with mechanical systems in a data center is to:",
+    "q": "The primary reason to coordinate telecom pathways with mechanical systems in a data center is to:",
     "ref": "ITSIMM: Data Centers > Coordination",
     "hint": "Data center systems are interdependent in a confined environment.",
     "rubric": {
@@ -2068,7 +2068,7 @@
     "domain": "Safety",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY reason to verify de-energization and follow site safety procedures before working near electrical infrastructure is to:",
+    "q": "The primary reason to verify de-energization and follow site safety procedures before working near electrical infrastructure is to:",
     "ref": "ITSIMM: Safety > Electrical and jobsite safety",
     "hint": "Safety controls come before installation speed.",
     "rubric": {
@@ -2288,7 +2288,7 @@
     "domain": "Testing & Troubleshooting",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY value of a proper reference setup before fiber insertion-loss testing is to:",
+    "q": "The primary value of a proper reference setup before fiber insertion-loss testing is to:",
     "ref": "ITSIMM: Testing > Fiber loss testing",
     "hint": "A bad reference invalidates otherwise careful measurements.",
     "rubric": {
@@ -2486,7 +2486,7 @@
     "domain": "Testing & Troubleshooting",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY purpose of a visual fault locator is to:",
+    "q": "The primary purpose of a visual fault locator is to:",
     "ref": "ITSIMM: Testing > Fiber basic tools",
     "hint": "A VFL is a troubleshooting aid, not a certification instrument.",
     "rubric": {
@@ -2684,7 +2684,7 @@
     "domain": "Testing & Troubleshooting",
     "difficulty": 2,
     "style": "PRIMARY",
-    "q": "The PRIMARY role of change control in cabling administration is to:",
+    "q": "The primary role of change control in cabling administration is to:",
     "ref": "ITSIMM: Administration > Change control",
     "hint": "Change control preserves system integrity over time.",
     "rubric": {
