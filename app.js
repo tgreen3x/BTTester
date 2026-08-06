@@ -429,7 +429,8 @@ function render(){
   updateStreakUI();
   updateStatsUI();
   updateWorkbenchStatus();
-
+  setSidebarMode(state.mode);
+   
   const main=document.getElementById("main");
   const mainTitle=document.getElementById("mainTitle");
   main.innerHTML="";
@@ -481,7 +482,7 @@ function setSidebarMode(mode) {
       modeTitle: "",
       content: ""
     },
-    misses: {
+    review: {
       title: "▐ Misses Deck",
       modeTitle: "Review Missed Questions",
       content: `
@@ -1010,6 +1011,5 @@ document.addEventListener("DOMContentLoaded", async ()=>{
   render();
   wireMenuBar();
   wireFx();
-  setSidebarMode("default");
   startBootSequence();
 });
