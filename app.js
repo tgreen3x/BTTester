@@ -938,7 +938,14 @@ const modePrompts={
 function updateWorkbenchStatus(){
   const modeText=(state.mode||"daily").toUpperCase();
   const selectionText=(state.selection||"adaptive").toUpperCase();
-  const themeText=state.theme==="ibm"?"IBM WORKSTATION":"WINDOWS 95";
+  const themeNames = {
+     win95: "WINDOWS 95",
+     ibm: "IBM WORKSTATION",
+     light: "LIGHT",
+     dark: "DARK"
+  };
+
+  const themeText = themeNames[state.theme] || "UNKNOWN SOURCE";
 
   const el=id=>document.getElementById(id);
   if(el("statusMode")) el("statusMode").textContent=modeText;
